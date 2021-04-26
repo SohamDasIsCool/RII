@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
 
@@ -14,7 +13,8 @@
 
 </head>
 
-<body background="background.webp">
+<body background="download.webp">
+
   <center>
     <h3 class="btn btn-info heading">Realtime Image Identification
     <hr>
@@ -23,13 +23,29 @@
   Model is trained on
   <br>
   <div class="btn btn-warning heading_div2">
-Mom | Dad | Me
+    Mom | Dad | Me
   </div>
 </div>
     </center>
   </h3>
   </center>
+  <br>
+</h3>
+<br><br>
+<center>
+<p class="btn btn-success result_para_tag">Object:
+<span id="result_object_name"></span>
+</p>
+<br><br>
+<p class="btn btn-success result_para_tag">Accuracy:
+<span id="result_object_accuracy"></span>
+</p>
+</center>
+</center>
 
+<div class="copy_right_footer">
+  Developed by - Soham
+</div>
 <script src="main.js"></script>
 </body>
 
